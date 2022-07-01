@@ -1,0 +1,151 @@
+:root{
+    display: flex;
+    margin-left: 150px;
+}
+
+/*TOP section*/
+
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+    margin: 8px;
+    border: 2px;
+    padding-left: 900px;
+    font-size: 12px;
+    color: #E5E7EB;
+    margin-top: 0px;
+
+}
+.flex-container>div{
+    display: flex;
+    margin: 8px;
+    border: 2px;
+    padding: 8px;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 1rem;
+}
+
+.TOP .Logo{
+    display:inline-flex;
+    margin-top: 0px;
+}
+
+.Logo{
+    font-size: 16px;
+    color: #F9FAF8;
+    padding-left: 40px;
+    
+}
+
+.TOP{
+    color: #ffffff;
+    padding: 40px;
+    border: 2px;
+    background-color: #1F2937;
+}
+
+.TOP h2{
+    font-size: 48px;
+    font-weight: 20px;
+    color: #F9FAF8;
+    margin-bottom: 2px;
+    padding-left: 40px;
+}
+
+.TOP p{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 4px 20px;
+    border: none;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    border-radius: 5px;
+}
+
+.hero-image{
+    border: 2px;
+    margin-top: 60px;
+    margin-left: 300px;
+    background-color: #8a8a8a;
+    width: 300px;
+    height: 150px;
+}
+
+.middle{
+    display: flex;
+    margin-top: 2px;
+}
+
+.hero-image p{
+   text-align: center;
+   flex-wrap: wrap;
+   padding-top: 60px;
+    
+}
+
+
+/*CENTER section*/
+
+.CENTER{
+    margin-left: 600px;
+    margin-top: 2rem;
+}
+
+.CENTER h2{
+    margin-left: 75px;
+}
+
+.box div{
+    width:75px;
+    height:75px;
+    border:2px solid #3882F6; 
+    background: transparent; 
+    display: inline-block;
+    margin-top: 4px;
+    border-radius: 10px;
+    gap: 2px;
+}
+
+.box-text{
+    display: flex;
+    gap: 1rem;
+    font-size: 12px;
+}
+
+.box{
+    display: flex;
+    gap: 2rem;
+}
+
+/*QUOTE BOX*/
+
+.QUOTE-BOX {
+    padding: 100px;
+    background-color: #E5E7EB;
+    font-size: 20px;
+    text-align: center;
+}
+
+.QUOTE-BOX p>strong{
+    font-size: 12px;
+    margin-left: 600px;
+}
+
+/*Sign up box*/
+.sign-up-box{
+    display: flex;
+    width: 600px;
+}
+
+
+
+
